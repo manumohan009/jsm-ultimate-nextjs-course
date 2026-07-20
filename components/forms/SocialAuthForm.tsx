@@ -7,6 +7,7 @@ import ROUTES from "@/constants/routes";
 
 import { Button } from "../ui/button";
 import { toast } from "sonner";
+//https://ui.shadcn.com/docs/forms/react-hook-form
 
 const SocialAuthForm = () => {
   const buttonClass =
