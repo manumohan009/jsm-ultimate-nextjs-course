@@ -52,7 +52,7 @@ const LocalSearch = ({ route, imgSrc, placeholder, iconPosition, otherClasses }:
     }, 300);
 
     return () => clearTimeout(delayDebounceFn);
-  }, [search, route, pathname, router]);
+  }, [search, router, route, pathname, searchParams]);
 
   return (
     <div
